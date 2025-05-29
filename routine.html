@@ -1,0 +1,34 @@
+
+    <!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>맞춤 운동 루틴</title>
+    <script src="https://cdn.tailwindcss.com"></script></head>
+    <body class="bg-white text-gray-800">
+    <div class="container mx-auto px-4 py-10">
+      <h2 class="text-3xl font-semibold mb-6 text-cyan-600">맞춤 운동 루틴 생성</h2>
+      <form class="space-y-4 max-w-xl mx-auto bg-gray-50 p-6 rounded-xl shadow">
+        <label class="block">
+          <span>당신은 학생인가요?</span>
+          <select class="mt-1 w-full border rounded px-3 py-2">
+            <option>예</option><option>아니오</option>
+          </select>
+        </label>
+        <label class="block">
+          <span>어디가 불편하신가요?</span>
+          <input type="text" class="mt-1 w-full border rounded px-3 py-2" placeholder="예: 목, 어깨, 허리 등" />
+        </label>
+        <label class="block">
+          <span>운동 시간은 어느정도 원하시나요?</span>
+          <input type="text" class="mt-1 w-full border rounded px-3 py-2" placeholder="예: 10분, 30분 등" />
+        </label>
+        <label class="block">
+          <span>목적은 무엇인가요?</span>
+          <select class="mt-1 w-full border rounded px-3 py-2">
+            <option>다이어트</option><option>근력 운동</option>
+          </select>
+        </label>
+        <button class="w-full bg-cyan-500 text-white py-2 rounded hover:bg-cyan-600 transition">추천 루틴 보기</button>
+      </form>
+    </div>
+    </body></html>
+    
